@@ -1,0 +1,5 @@
+all:
+	$(CROSS_COMPILE)$(CC) main.c -o main
+
+clean:
+	rm -f *.o
